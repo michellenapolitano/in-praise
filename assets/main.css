@@ -1,0 +1,43 @@
+body {
+	background: white;
+}
+
+.lines {
+	max-width: 100%;
+	position: absolute;
+}
+
+.lines:hover {
+animation: shake 0.5s;
+animation-iteration-count: infinite;
+cursor: pointer;
+	opacity: 0.2;
+	transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.type {
+	text-align: right;
+	font-family: 'Knewave', cursive;
+	padding-top: 15vw;
+	padding-bottom: 15vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	line-height: 2.7;
+	font-size: 80px;
+	font-weight: 4px;
+}
+
+.click {
+	color: grey;
+	text-align: right;
+	font-family: 'Knewave', cursive;
+	padding-top: 15vw;
+	padding-bottom: 15vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	line-height: 1.0;
+	font-size: 20px;
+	font-weight: 4px;
+}
